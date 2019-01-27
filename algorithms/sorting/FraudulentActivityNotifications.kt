@@ -43,11 +43,12 @@ fun median(days: Int, countArray: IntArray): Int {
                 break
             }
         } else {
-            if (count == medianIdx) {
+
+            if (countArray[countIdx] > 0 && count == medianIdx) {
 
                 median = countIdx
                 foundFirst = true
-            } else if (count >= medianIdx) {
+            } else if (countArray[countIdx] > 0 && count > medianIdx) {
 
                 if (foundFirst) median += countIdx
                 else median = countIdx * 2
