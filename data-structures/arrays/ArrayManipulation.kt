@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/crush/problem
 
-fun main(args: Array<String>) {
+fun main() {
 
     val (_, qtyManipulations) = readLine().orEmpty()
         .trim()

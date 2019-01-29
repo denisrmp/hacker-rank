@@ -1,6 +1,8 @@
 import java.math.BigDecimal
 
-fun main(args: Array<String>) {
+// https://www.hackerrank.com/challenges/count-triplets-1/problem
+
+fun main() {
 
     val (_, ratio) = readLine().orEmpty()
         .trim()

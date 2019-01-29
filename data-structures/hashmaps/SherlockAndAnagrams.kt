@@ -1,5 +1,6 @@
+// https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
 
-fun main(args: Array<String>) {
+fun main() {
 
     val queries = readLine().orEmpty().trim().toInt()
     (0 until queries).forEach {

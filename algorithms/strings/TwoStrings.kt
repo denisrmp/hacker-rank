@@ -1,5 +1,6 @@
+// https://www.hackerrank.com/challenges/two-strings/problem
 
-fun main(args: Array<String>) {
+fun main() {
 
     val pairs = readLine().orEmpty().trim().toInt()
     (0 until pairs).forEach {
