@@ -1,2 +1,3 @@
-# hacker-rank
-solutions for hacker rank challenges
+# Coding Challenges
+
+Solutions for diverse coding challengs picked from different platforms
