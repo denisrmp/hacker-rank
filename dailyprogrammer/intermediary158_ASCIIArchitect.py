@@ -11,7 +11,7 @@ def print_output(building):
         temp = ''
         for column in building:
             temp += column[i]
-        print temp
+        print(temp)
 
 for element in blueprint: 
     if element in numbers:
@@ -21,4 +21,4 @@ for element in blueprint:
         building += ' ' * pads + patterns[i] + ' ' * (22 - pads - i)
         pads = 0
 
-print "\n".join([building[x::23] for x in xrange(22,-1,-1)])
+print("\n".join([building[x::23] for x in xrange(22,-1,-1)]))
